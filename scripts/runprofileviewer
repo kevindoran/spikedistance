@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Example usage:
+# ./scripts/profile_python.sh 
+# runprofileviewer ./out/binary.profile
+
+docker run -it \
+--rm \
+--network host \
+-v $(pwd):/app \
+-p 4000:4000 \
+csi \
+cprofilev -f $1

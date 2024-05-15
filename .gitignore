@@ -1,0 +1,41 @@
+# Editor temporaries
+*.swp
+*.swo
+
+# Editor config
+# Ignore nvim stuff?
+# tools/nvim/
+
+# macOS dir files
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Packaging
+*.egg-info/
+dist/
+
+# Compiled Python
+*.pyc
+
+# Pytest cache
+.pytest_cache/
+__pycache__/
+
+# Virtual envs
+venv/
+
+# Ignored for publishing
+.ipynb_checkpoints/
+notebooks/
+perf/
+versioned_runs/
+
+# Reserved folders for input data and output data.
+data/*/
+out/
+
+# Generally too big to store in git, and no need for versioning.
+/resources
+

@@ -1,0 +1,11 @@
+#!/bin/bash
+docker run -it \
+--memory 100g \
+--ipc=host \
+--gpus all \
+--name="runcmd-$(date +%s)" \
+-v $(pwd):/app \
+csi \
+$1
+
+

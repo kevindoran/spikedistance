@@ -1,0 +1,24 @@
+# These requirements are intended to be a copy of the dependencies listed in
+# ./retinapy/setup.py. It's used by Docker to cache the package installs.
+bidict
+configargparse
+deprecated
+einops
+h5py
+kaleido
+numpy
+pandas
+pillow
+plotly
+polars
+pyarrow
+pyyaml
+scinot
+scikit-learn
+semantic_version
+scipy
+tensorboard
+torch
+torchinfo
+tqdm
+typer

@@ -1,0 +1,14 @@
+data_dir: ./data/chicken_2021_08_17
+recording_names: 
+- Chicken_17_08_21_Phase_00
+lr: 5e-4 
+epochs: 80 
+batch_size: 256 
+steps_til_eval: 8000 
+k: DistfieldUnet2-18ds_992in
+stride: 13 
+weight_decay: 0.3
+pin_memory: true
+num_workers: 20
+steps_til_log: 20
+labels: recreate_paper,chicken,dist

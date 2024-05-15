@@ -1,0 +1,2 @@
+#!/bin/bash
+./scripts/runcmd "python3 -m twine upload --config-file ./mygitignore/.pypirc --repository testpypi retinapy/dist/*"

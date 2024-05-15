@@ -1,0 +1,7 @@
+docker run \
+-it --rm \
+--gpus all \
+--ipc=host \
+-v /home/k/Dropbox/projects/retinapy:/app \
+csi \
+./scripts/profile_python.sh ./pybin/profileme.py

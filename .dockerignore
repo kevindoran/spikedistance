@@ -1,0 +1,11 @@
+**/*.swp
+**/*.swo
+
+resources
+data
+out
+notebooks
+.pytest_cache
+.idea
+.git
+
