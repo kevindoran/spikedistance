@@ -107,4 +107,3 @@ For example:
 
     ./scripts/runcmd "python ./retinapy/src/retinapy/spikeprediction.py --config ./recreate_results/train_dist_chicken.yml"
 
-
