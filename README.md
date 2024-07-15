@@ -1,4 +1,4 @@
-Code for the paper "Distance function for spike prediction". ([project page](https://kdoran.com/spikedistance/)) ([ICML 2024 paper](https://icml.cc/virtual/2024/poster/33205))
+Code for the paper "Spike distance function as a learning objective for spike prediction". ([project page](https://kdoran.com/spikedistance/)) ([ICML 2024 paper](https://icml.cc/virtual/2024/poster/33205))
 
 # Setup
 Install the local package `retinapy`:
